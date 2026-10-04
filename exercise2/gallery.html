@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>AI Image Gallery</title>
+
+  <style>
+
+    body {
+      font-family: Arial;
+      background: #111;
+      color: white;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(300px, 1fr));
+
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: #222;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    h2 {
+      text-transform: capitalize;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>AI Image Gallery</h1>
+
+  <h2>Theme: cyperpunk cityscape</h2>
+
+  <div class="gallery">
+
+    <div class="card">
+
+      <img
+        src="images/square-vivid.png"
+        alt="square vivid"
+      >
+
+      <h2>square</h2>
+
+      <p>Style: vivid</p>
+
+    </div>
+  
+    <div class="card">
+
+      <img
+        src="images/square-natural.png"
+        alt="square natural"
+      >
+
+      <h2>square</h2>
+
+      <p>Style: natural</p>
+
+    </div>
+  
+    <div class="card">
+
+      <img
+        src="images/portrait-vivid.png"
+        alt="portrait vivid"
+      >
+
+      <h2>portrait</h2>
+
+      <p>Style: vivid</p>
+
+    </div>
+  
+    <div class="card">
+
+      <img
+        src="images/portrait-natural.png"
+        alt="portrait natural"
+      >
+
+      <h2>portrait</h2>
+
+      <p>Style: natural</p>
+
+    </div>
+  
+    <div class="card">
+
+      <img
+        src="images/landscape-vivid.png"
+        alt="landscape vivid"
+      >
+
+      <h2>landscape</h2>
+
+      <p>Style: vivid</p>
+
+    </div>
+  
+    <div class="card">
+
+      <img
+        src="images/landscape-natural.png"
+        alt="landscape natural"
+      >
+
+      <h2>landscape</h2>
+
+      <p>Style: natural</p>
+
+    </div>
+  
+  </div>
+
+</body>
+</html>
