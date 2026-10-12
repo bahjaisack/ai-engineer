@@ -11,3 +11,16 @@ yarn-debug.log*
 yarn-error.log*
 
 .DS_Store
+
+
+
+# Next.js build and cache outputs
+.next/
+out/
+
+# Local databases / LevelDB SST files
+*.sst
+*.log
+
+# OS files
+Thumbs.db
